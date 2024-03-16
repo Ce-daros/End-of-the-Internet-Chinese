@@ -17,6 +17,10 @@
 # 许可证
 本项目使用 The Unlicense 协议，详情请参阅 LICENSE 文件。
 
+# TODO
+
+- [ ] 汉化 GIF 图片
+
 # 致谢
 - 感谢 hmpg.net 的创建者提供了这个有趣的网页，启发我们思考互联网和生活的意义。
 - 感谢 [这个视频](https://www.bilibili.com/video/BV1RN411S7P8) 的创作者提供的翻译参考。
