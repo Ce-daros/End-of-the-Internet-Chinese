@@ -7,6 +7,7 @@
 # 使用方法
 - 克隆或下载本仓库。
 - 在浏览器中打开 index.html 文件。
+- 享受放松一刻。
 
 或访问在 Github Pages 上部署的[版本](https://ce-daros.github.io/End-of-the-Internet-Chinese/)。
 
@@ -17,4 +18,5 @@
 本项目使用 The Unlicense 协议，详情请参阅 LICENSE 文件。
 
 # 致谢
-感谢 hmpg.net 的创建者提供了这个有趣的网页，启发我们思考互联网和生活的意义。
+- 感谢 hmpg.net 的创建者提供了这个有趣的网页，启发我们思考互联网和生活的意义。
+- 感谢 [这个视频](https://www.bilibili.com/video/BV1RN411S7P8) 的创作者提供的翻译参考。
