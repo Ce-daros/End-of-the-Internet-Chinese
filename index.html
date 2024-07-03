@@ -1,7 +1,20 @@
 <html>
 
 <head>
-    <title>互联网的尽头</title>
+<title>End of the Internet</title>
+<script type="text/javascript">
+function showLanguage() {
+    var language = document.querySelector('input[name="language"]:checked').value;
+    var allSections = document.querySelectorAll('.section');
+    allSections.forEach(function(section) {
+        section.style.display = 'none';
+    });
+    document.getElementById(language).style.display = 'block';
+}
+window.onload = function() {
+    document.getElementById('zh-cn').style.display = 'block';
+}
+</script>
     <style>
         body {
           background-color: white;
@@ -16,29 +29,104 @@
         }
       </style>
 </head>
-
 <body>
-    <p align=center>
-        <font size=+4>恭喜你</font>
-    <p align=center><b>你终于到达了互联网的尽头</b><br>没有更多的信息供您了解了，也没有更多的链接供您访问了<br>
-        你做完了在互联网上的一切<br>
-        这是互联网最远端的最后一台服务器上的最后一页
-    <p align=center>你现在应该关掉电子设备，在余生中去做一些有用的事情。 *
-    <p>例如:<br>
-    <ul>
-        <li>读几本书
-        <li>去做几项公益服务
-        <li>去与你的网友见面
-        <li>种一棵树
-        <li>去与你的家人朋友们聊聊天
-    </ul>
-    <p align=center>
-        <font size=-1><i>* 出门时请不要忘记关灯。</i></font>
-    <p>在剩下的时间里，我们会将互联网的数据下载至您的电脑。
-    <div class="g-plusone"></div>
-    </p>
+<div id="en" class="section" style="display:none">
+<p align=center><font size=+4>Congratulations!</font>
+<p align=center><b>You have finally reached the end of the internet!</b><br>
+There's nothing more to see, no more links to visit.<br>
+You've done it all.<br>
+This is the very last page on the very last server at the very far end of the internet.
+<p align=center>You should now turn off your computer and go do something useful with the rest of your life. *
+<p>Suggestions:<br>
+<ul>
+<li>Read a book
+<li>Do some public service
+<li>Personally interact with your neighbors that you've probably only met online
+<li>Plant a tree
+<li>Introduce yourself to those other people who live at your house (your family).
+</ul>
+<p align=center><font size=-1><i>* Please don't forget to turn off the lights on your way out. QwQ</i></font>
+</div>
 
-    <p align="center"><img src="https://hmpg.net/downloadwww.gif">
+<div id="zh-cn" class="section" style="display:none">
+<p align=center><font size=+4>恭喜你！</font>
+<p align=center><b>你已经到达了互联网的尽头</b><br>
+没有更多信息供您了解了，也没有更多的链接供您访问了<br>
+您做完了互联网的一切任务<br>
+这是互联网的最后一个服务器，没有更多了，真的没有了。
+<p align=center>你应当现在关上你的电子设备，在余生中去做一些有用的事情。 *
+<p>建议:<br>
+<ul>
+<li>读本书
+<li>做点公益活动
+<li>去与你线上的网友线下见面
+<li>种一棵树
+<li>陪陪你的家人
+</ul>
+<p align=center><font size=-1><i>* 走后别忘了关灯！QwQ</i></font>
+</div>
+
+<div id="zh-tw" class="section" style="display:none">
+<p align=center><font size=+4>恭喜你！</font>
+<p align=center><b>你已經到達了萬維網的盡頭</b><br>
+沒有更多信息供您瞭解了，也沒有更多鏈接供您訪問了<br>
+您做完了互聯網的一切任務<br>
+這是互聯網的最後一個伺服器，沒有更多了，真的沒有了。
+<p align=center>你應當現在關上你的電子設備，在餘生中去做一些有用的事情 *
+<p>建議:<br>
+<ul>
+<li>讀本書
+<li>做點公益活動
+<li>去和你綫上的網友綫下見面
+<li>種一棵樹
+<li>陪陪你的家人
+</ul>
+<p align=center><font size=-1><i>* 走後別忘了關燈！QwQ</i></font>
+</div>
+
+<div id="zh-hk" class="section" style="display:none">
+<p align=center><font size=+4>恭喜你！</font>
+<p align=center><b>你已經到咗萬維網嘅盡頭</b><br>
+冇更多資訊供你了解咗，也都冇更多連結畀你睇咗<br>
+你完成咗萬維網嘅所有任務<br>
+呢度係萬維網嘅最後一個服務區，冇嘢喇，真係冇嘢喇
+<p align=center>你應當關你嘅電子產品，剩下嘅時間做啲有用嘅事 *
+<p>例如<br>
+<ul>
+<li>睇啲書
+<li>做啲公益活動
+<li>同你嘅網友線下見面
+<li>種棵樹
+<li>陪你嘅家人
+</ul>
+<p align=center><font size=-1><i>* 冇忘記關燈喇！QwQ</i></font>
+</div>
+
+<div id="jp" class="section" style="display:none">
+<p align=center><font size=+4>おめでとうございます！</font>
+<p align=center><b>あなたはすでにウェブの果てに着いています</b><br/>
+これ以上の情報はありませんし、アクセスできるリンクもありません<br/>
+インターネットのすべてのタスクを完了しました<br/>
+これはインターネットの最後のサーボで、これ以上はありません。本当にありません。
+<p align=center>今はあなたの電子機器を見て、余生の中で役に立つことをしてください*
+<p>アドバイス：<br/>
+<ul>
+<li>本を読む
+<li>公益活動をする
+<li>オンライン上のネットユーザーとオフラインで会いに行きます
+<li>木を植える
+<li>あなたの家族に付き添う
+</ul>
+<p align=center><font size=-1><i>*行ったら電気を消すのを忘れないで！！QwQ</i></font>
+</div>
+
+<p align=center><b>Select Language:</b><br>
+<label><input type="radio" name="language" value="zh-cn" onclick="showLanguage()" checked> 中文（简体）</label>
+<label><input type="radio" name="language" value="en" onclick="showLanguage()"> English</label>
+<label><input type="radio" name="language" value="zh-tw" onclick="showLanguage()"> 中文（繁體）</label>
+<label><input type="radio" name="language" value="zh-hk" onclick="showLanguage()"> 中文（香港）</label>
+<label><input type="radio" name="language" value="jp" onclick="showLanguage()"> 日本語</label>
+<br><br>
 </body>
 
 </html>
